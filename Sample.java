@@ -16,7 +16,7 @@ public class Sample {
 		driver.get("https://www.flipkart.com/");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.findElement(By.xpath("//span[@role='button']")).click();
-		System.out.println("Flipkart page is opened successfully");
+		System.out.println("Flipkart page is opened");
 	}
 
 }
